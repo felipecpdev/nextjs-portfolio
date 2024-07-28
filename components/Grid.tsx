@@ -13,7 +13,7 @@ export function Grid() {
     return (
         <section id="about">
             <div className="py-20 pt-36 w-full z-50">
-                <h1 className="heading pt-[15rem] lg:pt-[5rem] pb-4">
+                <h1 className="heading  pb-4">
                     Sobre <span className="text-purple">mí</span>
                 </h1>
                 <BentoGrid className="max-w-4xl mx-auto py-4 md:auto-rows-[20rem]">
