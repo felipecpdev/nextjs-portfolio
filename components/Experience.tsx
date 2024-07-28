@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <section id="experience">
       <div className="py-20 w-full">
-        <h1 className="heading">
+        <h1 className="heading pt-[5rem]">
           Mi <span className="text-purple">experiencia</span>
         </h1>
 
