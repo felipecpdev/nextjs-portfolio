@@ -6,7 +6,7 @@ import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
 const Experience = () => {
   return (
     <section id="experience">
-      <div className="py-20 w-full">
+      <div className="py-2 w-full">
         <h1 className="heading pt-[5rem]">
           Mi <span className="text-purple">experiencia</span>
         </h1>

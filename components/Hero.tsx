@@ -6,7 +6,7 @@ import { FaLocationArrow } from 'react-icons/fa6'
 
 const Hero = () => {
     return (
-        <div className='pb-10 pt-36'>
+        <div className='pt-15'>
             <div>
                 <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white' />
                 <Spotlight className='top-10 left-full h-[80vh] w-[50vw]' fill='purple' />
@@ -18,17 +18,17 @@ const Hero = () => {
                     <h2
                         className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'
                     >Bienvenido a mi web Portafolio</h2>
-                    <TextGenerateEffect words='Dando vida a tus ideas con Sistemas web personalizados' className='text-center text-[40px] md:text-5xl lg:text-6xl'  />
+                    <TextGenerateEffect words='Dando vida a tus ideas con Sistemas web personalizados' className='text-center text-[40px] md:text-5xl lg:text-6xl' />
                     <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl"'>
                         Hola, soy Felipe Contreras, FullStack Developer de Chile
                     </p>
-                    <a href="#about">
-            <MagicButton
-              title="Sobre mí"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+                    <a href="#contact">
+                        <MagicButton
+                            title="Contacto"
+                            icon={<FaLocationArrow />}
+                            position="right"
+                        />
+                    </a>
                 </div>
             </div>
 

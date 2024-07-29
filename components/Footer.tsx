@@ -21,7 +21,7 @@ const Footer = () => {
                     <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
                         <a href="mailto:felipe.contreras.dev@gmail.com">
                             <MagicButton
-                                title="Pongámonos en contacto"
+                                title="Contáctame"
                                 icon={<FaLocationArrow />}
                                 position="right"
                             />

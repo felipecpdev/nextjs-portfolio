@@ -12,7 +12,7 @@ import PDF from "./ui/PDF";
 export function Grid() {
     return (
         <section id="about">
-            <div className="py-20 pt-36 w-full z-50">
+            <div className=" pt-10 w-full z-50">
                 <h1 className="heading  pb-4">
                     Sobre <span className="text-purple">mí</span>
                 </h1>
